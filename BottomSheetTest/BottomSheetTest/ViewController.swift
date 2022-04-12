@@ -14,6 +14,19 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
-
+    @IBAction func button(_ sender: Any) {
+        let sheetViewController = storyboard?.instantiateViewController(withIdentifier: "BottomSheetViewController") as! BottomSheetViewController
+        
+//        if let sheet = sheetViewController.sheetPresentationController {
+//                sheet.detents = [.medium(), .large()]
+//                sheet.largestUndimmedDetentIdentifier = .medium
+//                sheet.prefersScrollingExpandsWhenScrolledToEdge = false
+//                sheet.prefersEdgeAttachedInCompactHeight = true
+//                sheet.widthFollowsPreferredContentSizeWhenEdgeAttached = true
+//            }
+        
+        present(sheetViewController, animated: true)
+    }
+    
 }
 

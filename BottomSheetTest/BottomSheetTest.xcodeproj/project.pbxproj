@@ -13,6 +13,7 @@
 		BDA859D62805BE81007819C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDA859D42805BE81007819C0 /* Main.storyboard */; };
 		BDA859D82805BE85007819C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDA859D72805BE85007819C0 /* Assets.xcassets */; };
 		BDA859DB2805BE85007819C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDA859D92805BE85007819C0 /* LaunchScreen.storyboard */; };
+		BDA859E32805C92B007819C0 /* BottomSheetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA859E22805C92B007819C0 /* BottomSheetViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		BDA859D72805BE85007819C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BDA859DA2805BE85007819C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BDA859DC2805BE85007819C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDA859E22805C92B007819C0 /* BottomSheetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomSheetViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				BDA859D72805BE85007819C0 /* Assets.xcassets */,
 				BDA859D92805BE85007819C0 /* LaunchScreen.storyboard */,
 				BDA859DC2805BE85007819C0 /* Info.plist */,
+				BDA859E22805C92B007819C0 /* BottomSheetViewController.swift */,
 			);
 			path = BottomSheetTest;
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 				BDA859D32805BE81007819C0 /* ViewController.swift in Sources */,
 				BDA859CF2805BE81007819C0 /* AppDelegate.swift in Sources */,
 				BDA859D12805BE81007819C0 /* SceneDelegate.swift in Sources */,
+				BDA859E32805C92B007819C0 /* BottomSheetViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,6 +299,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -323,6 +328,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
